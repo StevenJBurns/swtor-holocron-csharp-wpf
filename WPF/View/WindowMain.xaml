@@ -1,0 +1,9 @@
+﻿<Window xmlns="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:Ara.SchematicVisualizer.ViewModel"
+        xmlns:vw="clr-namespace:Ara.SchematicVisualizer.View"
+        Title="SWTOR Crew Skill Schematic Visualizer"
+        Icon="../Content/Icons/Application.ico"
+        x:Class="Ara.SchematicVisualizer.View.WindowMain"
+        WindowStartupLocation="CenterScreen" ResizeMode="CanResizeWithGrip"
+        MinHeight="600" MinWidth="800" Height="768" Width="1024" />
