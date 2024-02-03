@@ -3,21 +3,20 @@ using System.Windows;
 using System.Reflection;
 
 namespace Ara.SchematicVisualizer
-	{
-	public partial class Application : System.Windows.Application
-		{
-		public Application() : base() { }
+{
+  public partial class Application : System.Windows.Application
+  {
+    public Application() : base() { }
+    
+    protected override void OnStartup(System.Windows.StartupEventArgs e)
+    {
+      base.OnStartup(e);
+      // InitializeStaticData();
+    }
 
-		protected override void OnStartup(System.Windows.StartupEventArgs e)
-			{
-			base.OnStartup(e);
-
-			//InitializeStaticData();
-			}
-
-		private void InitializeStaticData()
-			{
-			//Ara.PFT.Data.StaticData dal = new Data.StaticData();
-			}
-		}
-	}
+    private void InitializeStaticData()
+    {
+    // Ara.PFT.Data.StaticData dal = new Data.StaticData();
+    }
+  }
+}
